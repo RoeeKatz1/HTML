@@ -2,6 +2,13 @@ body {
   margin: 0px 5%;
 } 
 
+.topnav {
+  display: flex;
+  justify-content: center;    
+  background: #b84155;
+
+}
+
 p {
   font-family: 'Lato', sans-serif;
   font-size: 22px;
@@ -27,7 +34,6 @@ h3 {
 
 .header {
   padding-top: 30px;
-  text-align: center;
   background: #b84155;
 }
 .btn-header {
@@ -38,8 +44,10 @@ h3 {
   border: 1px solid black;
   padding: 5px 10px;
   background: white;
-  margin: 0 10px;
+  margin: 20px 10px;
   font-weight: 800;
+
+
   
 }
 
@@ -50,7 +58,7 @@ h3 {
   display: flex;
   justify-content: center;
   background: #b84155;
-  padding: 20px 20px 0px 20px; 
+  padding: 0px 20px 0px 20px; 
 }
 
 .flex-box-main1 {
@@ -58,7 +66,7 @@ h3 {
   display: flex;
   justify-content: center;
   background: white;
-  padding: 20px; 
+  padding: 0px; 
   
 }
 
@@ -66,7 +74,7 @@ h3 {
   text-align: center;
   width: 700px;
   background: white;
-  padding: 20px
+  padding: 0px 20px 20px 20px; 
 }
 
 
